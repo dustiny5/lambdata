@@ -3,8 +3,9 @@
 Input a list and change to a series. Finally concat to a new Data Frame
 '''
 import pandas as pd
-feature = list()
-df = pd.DataFrame()
+
+#feature = list()
+#df = pd.DataFrame()
 
 def concat_feature(feature, df):
     '''
