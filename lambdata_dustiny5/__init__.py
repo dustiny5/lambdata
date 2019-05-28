@@ -16,9 +16,10 @@ TEST = pd.DataFrame(np.ones(10))
 Y = example_module.increment(example_module.x)
 
 # concat
-feature = [1,2,3,4]
-d = {'col1': [1,2,3,4], 'col2': [1,2,3,4]}
-df = pd.DataFrame(d)
+#feature = [1,2,3,4]
+#d = {'col1': [1,2,3,4], 'col2': [1,2,3,4]}
+feature = list()
+df = pd.DataFrame()
 NEW_DF = concat.concat_feature(feature,df)
 
 # train_test_split and train_val_split
