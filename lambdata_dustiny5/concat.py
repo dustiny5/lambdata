@@ -3,10 +3,10 @@
 Input a list and change to a series. Finally concat to a new Data Frame
 '''
 import pandas as pd
-feature = None
-df = None
+feature = list()
+df = pd.DataFrame()
 
-def concat_feature(feature=None, df=None):
+def concat_feature(feature, df):
     '''
     Input a list and change to a series. Finally concat to a new Data Frame
     '''

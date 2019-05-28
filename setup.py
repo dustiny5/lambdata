@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-dustiny5",
-    version="0.0.2",
+    version="0.0.3",
     author='dustiny',
     description="A collection of Data Science Helper functions",
     long_description=LONG_DESCRIPTION,
