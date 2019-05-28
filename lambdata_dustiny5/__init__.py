@@ -6,7 +6,7 @@ lambdata - A collection of Data Science helper functions
 import pandas as pd
 import numpy as np
 from . import example_module
-#from . import train_test_split as tts
+from . import train_test_split as tts
 from . import concat
 
 TEST = pd.DataFrame(np.ones(10))
@@ -24,7 +24,7 @@ NEW_DF = concat.concat_feature(feature=None,df=None)
 #X, y = np.arange(10).reshape((5, 2)), range(5)
 
 # Module returns X_train, X_test, y_train, y_test
-#TRAIN_TEST = tts.train_test(tts.X, tts.y)
+TRAIN_TEST = tts.train_test(X=None, y=None)
 
 # Module returns X_train, X-val, y_train, y_val
-#TRAIN_VAL = tts.train_val(TRAIN_TEST[0], TRAIN_TEST[2])
+TRAIN_VAL = tts.train_val(TRAIN_TEST[0], TRAIN_TEST[2])
