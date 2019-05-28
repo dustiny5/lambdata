@@ -26,6 +26,9 @@ NEW_DF = concat.concat_feature(feature,df)
 #X, y = np.arange(10).reshape((5, 2)), range(5)
 X = pd.DataFrame()
 y = pd.DataFrame()
+
+# Module returns X_train, X_test, y_train, y_test
 TRAIN_TEST = train_test_split.train_test(X, y)
 
+# Module returns X_train, X-val, y_train, y_val
 TRAIN_VAL = train_test_split.train_val(TRAIN_TEST[0], TRAIN_TEST[2])
