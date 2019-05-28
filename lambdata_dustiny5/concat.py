@@ -4,6 +4,9 @@ Input a list and change to a series. Finally concat to a new Data Frame
 '''
 import pandas as pd
 
+feature = None
+df = None
+
 def concat_feature(feature, df):
     '''
     Input a list and change to a series. Finally concat to a new Data Frame
