@@ -24,7 +24,7 @@ NEW_DF = concat.concat_feature(feature=None,df=None)
 #X, y = np.arange(10).reshape((5, 2)), range(5)
 
 # Module returns X_train, X_test, y_train, y_test
-TRAIN_TEST = tts.train_test(X=None, y=None)
+##TRAIN_TEST = tts.train_test(X=None, y=None)
 
 # Module returns X_train, X-val, y_train, y_val
-TRAIN_VAL = tts.train_val(X=None, y=None)
+##TRAIN_VAL = tts.train_val(X=None, y=None)
