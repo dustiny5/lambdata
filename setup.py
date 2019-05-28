@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="lambdata-dustiny5",
     version="0.0.1",
-    author='dustiny5',
+    author='dustiny',
     description="A collection of Data Science Helper functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
