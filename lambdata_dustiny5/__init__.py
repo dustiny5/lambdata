@@ -22,7 +22,9 @@ df = pd.DataFrame(d)
 NEW_DF = concat.concat_feature(feature,df)
 
 # train_test_split and train_val_split
-X, y = np.arange(10).reshape((5, 2)), range(5)
+#X, y = np.arange(10).reshape((5, 2)), range(5)
+X = pd.DataFrame()
+y = pd.DataFrame()
 TRAIN_TEST = train_test_split.train_test(X, y)
 
 TRAIN_VAL = train_test_split.train_val(TRAIN_TEST[0], TRAIN_TEST[2])
