@@ -6,8 +6,8 @@ lambdata - A collection of Data Science helper functions
 import pandas as pd
 import numpy as np
 from . import example_module
-from . import train_test_split as tts
-from . import concat
+#from . import train_test_split as tts
+#from . import concat
 
 TEST = pd.DataFrame(np.ones(10))
 
