@@ -5,6 +5,10 @@ lambdata - A collection of Data Science helper functions
 
 import pandas as pd
 import numpy as np
+# We can import without using 'from . import module name'
+# Execute by using 'from lambdata_dustiny5 import module name'
+
+# With these imports then we can call directly from the package 'import lambdata_dustiny5'
 from . import example_module
 from . import train_test_split as tts
 from . import concat
