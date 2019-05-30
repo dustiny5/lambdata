@@ -8,6 +8,7 @@ ENV PYTHONUNBUFFERED=1
 RUN apt-get update && apt-get upgrade -y && \
   apt-get install python3-pip -y && \
   pip3 install pandas && \
+  pip3 install sklearn && \
   pip3 install -i https://test.pypi.org/simple/ lambdata-dustiny5 && \
   python3 -c "import lambdata_dustiny5"
 
