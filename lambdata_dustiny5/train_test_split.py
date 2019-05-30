@@ -6,11 +6,22 @@ from sklearn.model_selection import train_test_split
 
 class TrainTestSplit:
     '''
-    -Features can be 1 or more dimension/column - X takes in a DataFrame
-    -Target 1 dimension/column - y takes in a Series
-    -Run a 2nd time for X_train and y_train data sets
-    -Returns X_train, X_test, y_train, y_test
+    Library:
+    ------------------------------------
+    from sklearn.model_selection import train_test_split
+
+    Parameters:
+    -------------------------------------
+    feature - Takes in 1 or more dimension/column - X takes in a DataFrame
+    target - Takes in 1 dimension/column - y takes in a Series
+    test_size - Default is 20% or 0.2
+    random_state - Default is 42
+
+    Returns:
+    --------------------------------------
+    X_train, X_test, y_train, y_test
     '''
+    
     def __init__(self, feature, target, test_size=0.2, random_state=42):
         self.feature = feature
         self.target = target

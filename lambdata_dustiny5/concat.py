@@ -6,8 +6,14 @@ import pandas as pd
 
 class ConcatFeature:
     '''
-    -Input a list and change to a series. Finally concat to a new Data Frame
-    -Returns a pandas dataframe of concatenated column to the data frame
+    Parameters:
+    -------------------------
+    feature: Takes in a list or series
+    df: Takes in a dictionary or dataframe
+
+    Returns: 
+    -------------------------
+    a pandas dataframe of concatenated column to the data frame
     '''
     # feature are columns of data frame and df is panda's data frame
     def __init__(self, feature, df):
